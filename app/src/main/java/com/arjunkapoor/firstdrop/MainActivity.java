@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setLogo(R.mipmap.ic_launcher);
-        getSupportActionBar().setTitle("FirstDrop");
+        getSupportActionBar().setTitle("Mama Care ");
         db = new databaseHelper(this, null, null, 1);
         total = db.totalCount();
 
