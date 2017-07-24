@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 24
     buildToolsVersion '25.0.0'
 
     defaultConfig {
@@ -48,5 +48,7 @@ dependencies {
     compile 'joda-time:joda-time:2.9.2'
     compile 'com.android.support:support-v4:24.0.0-beta1'
     compile 'com.firebase:firebase-client-android:2.5.2'
+    compile 'com.jakewharton:butterknife:7.0.1'
+
 }
 apply plugin: 'com.google.gms.google-services'
