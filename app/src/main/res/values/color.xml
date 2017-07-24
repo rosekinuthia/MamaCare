@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "linearbutton">#231D1D</color>
+    <color name = "white">#ffffff</color>
+    <color name = "bottombuttoncolor">#b7B3B3</color>
+    <color name="button_pressed">#ffffff</color>
+
+
+
+
+</resources>

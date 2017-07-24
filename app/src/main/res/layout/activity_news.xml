@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".news"
+    android:id="@+id/newslayout"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:id = "@+id/hello"
+
+
+
+        >
+        <android.support.design.widget.CoordinatorLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ToolBarStyle"
+                android:background="#2196F3"
+                >
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbarnews"
+                    android:minHeight="?attr/actionBarSize"
+                    android:background="#2196F3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|bottom"
+                    android:theme="@style/ToolBarStyle"
+                    app:titleTextAppearance="@style/mainactivitytoolbartext">
+
+                </android.support.v7.widget.Toolbar>
+
+
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabMode="fixed"
+                    app:tabGravity="fill"
+                    />
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+        </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp"
+        android:background="@color/linearbutton"
+        >
+
+        <Button
+            android:id="@+id/new_buttonnews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text = "News"
+            android:background="@null"
+            android:textColor="@color/bottombuttoncolor"
+            android:drawableTop="@android:drawable/ic_menu_sort_by_size"
+            android:gravity="bottom|center"
+            android:paddingBottom="7sp"
+            android:drawablePadding="0sp"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/profilebuttonnews"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text = "Profile"
+            android:background="@null"
+            android:textColor="@color/bottombuttoncolor"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:textSize="14sp"
+            android:gravity="bottom|center"
+            android:paddingBottom="7sp"
+            android:drawablePadding="0sp"
+            android:onClick="profilebuttonnews"
+            />
+        <Button
+            android:id="@+id/sharebuttonnews"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text = "Share"
+            android:background="@null"
+            android:textColor="@drawable/sharebuttoncolor"
+            android:drawableTop="@android:drawable/ic_menu_share"
+            android:textSize="14sp"
+            android:onClick="sharebuttonnews"
+
+            android:gravity="bottom|center"
+            android:paddingBottom="7sp"
+            android:drawablePadding="0sp"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/settingsbuttonnews"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text = "Settings"
+            android:background="@null"
+            android:textColor="@drawable/sharebuttoncolor"
+            android:drawableTop="@android:drawable/ic_menu_manage"
+            android:textSize="14sp"
+            android:onClick="settingsbuttonnews"
+
+            android:gravity="bottom|center"
+            android:paddingBottom="7sp"
+            android:drawablePadding="0sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
