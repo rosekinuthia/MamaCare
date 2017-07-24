@@ -94,19 +94,18 @@
 
         <Button
             android:id="@+id/profilebuttonnews"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text = "Profile"
+            android:layout_weight="1"
             android:background="@null"
-            android:textColor="@color/bottombuttoncolor"
-            android:drawableTop="@android:drawable/ic_menu_gallery"
-            android:textSize="14sp"
-            android:gravity="bottom|center"
-            android:paddingBottom="7sp"
             android:drawablePadding="0sp"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:gravity="bottom|center"
             android:onClick="profilebuttonnews"
-            />
+            android:paddingBottom="7sp"
+            android:text="Child"
+            android:textColor="@color/bottombuttoncolor"
+            android:textSize="14sp" />
         <Button
             android:id="@+id/sharebuttonnews"
             android:layout_weight="1"

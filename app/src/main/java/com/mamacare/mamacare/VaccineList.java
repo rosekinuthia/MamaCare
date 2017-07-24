@@ -1,40 +1,24 @@
-package com.arjunkapoor.firstdrop;
+package com.mamacare.mamacare;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.RadioGroup;
-import android.widget.RatingBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.List;
-import java.util.zip.Inflater;
 
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
 import it.gmariotti.cardslib.library.internal.CardExpand;
 import it.gmariotti.cardslib.library.internal.CardHeader;
-import it.gmariotti.cardslib.library.internal.CardThumbnail;
-import it.gmariotti.cardslib.library.internal.ViewToClickToExpand;
 import it.gmariotti.cardslib.library.view.CardListView;
-import it.gmariotti.cardslib.library.view.CardView;
 import it.gmariotti.cardslib.library.view.CardViewNative;
 
 
@@ -107,13 +91,13 @@ public class VaccineList extends AppCompatActivity {
 
                 TextView titlename = (TextView) findViewById(R.id.toolbartitle_vaccinelist);
         titlename.setText(valuename);
-        String[] vaccineName = {"BCG", "Hepatitis B1", "OPV0", "OPV1 / IPV", "DPT1 / DTaP1", "Hepatitis B2",
+        String[] vaccineName = {"BCG", "Yellow Fever", "OPV0", "OPV1 / IPV", "DPT1 / DTaP1", "Hepatitis B2",
                 "HIB1", "DPT2 / DTaP2", "OPV2 / IPV", "HIB2+Hepatitis B3", "Hepatitis B4",
                 "DPT3 / DTaP3", "HIB3", "OPV3+IPV", "Measels", "MMR", "DPT / DTaP Booster1",
                 "HIB Booster", "OPV Booster / IPV1", "Typhoid", "DPT / DTaP Booster", "OPV Booster / IPV2", "MMR",
                 "Typhoid 2", "Typhoid 3", "TD", "Typhoid 4", "Typhoid 5", "TD"};
         String[] description = {"It protects your child against Tuberculosis.Should be given as as close of time of birth as possible.",
-                "It protects your child against Hepatisis B virus,which lead to Liver damage and even Death.First dose is recommended at the time of Birth.",
+                "It protects your child against yellow fever virus.First dose is recommended at the 9th Month.",
                 "It is ORAL POLIO VACCINE.It protects your child against Polio,\nTwo types available:\n-INACTIVE POLIO VACCINE(IPV)\n-ORAL POLIO VACCINE(OPV).",
                 "It is ORAL POLIO VACCINE.It protects your child against Polio,\n" +
                         "Two types available:\n" +

@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:fitsSystemWindows="true"
-    tools:context="com.arjunkapoor.firstdrop.SignupActivity">
+    tools:context="com.mamacare.mamacare.SignupActivity">
 
     <LinearLayout
         android:orientation="vertical"

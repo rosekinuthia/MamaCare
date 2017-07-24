@@ -1,34 +1,24 @@
-package com.arjunkapoor.firstdrop;
+package com.mamacare.mamacare;
 
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
-
-import org.w3c.dom.Text;
-
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 
 public class newsfragment extends Fragment {
@@ -47,6 +37,7 @@ public class newsfragment extends Fragment {
     TextView mText7  ;
     TextView mText77  ;
     Firebase mRef;
+
 
 
 
@@ -151,18 +142,20 @@ public class newsfragment extends Fragment {
         mText33  =(TextView) getView().findViewById(R.id.text33);
         mText4  =(TextView) getView().findViewById(R.id.text4);
         mText44  =(TextView) getView().findViewById(R.id.text44);
+           /**
         mText5  =(TextView) getView().findViewById(R.id.text5);
         mText55  =(TextView) getView().findViewById(R.id.text55);
         mText6  =(TextView) getView().findViewById(R.id.text6);
         mText66  =(TextView) getView().findViewById(R.id.text66);
         mText7  =(TextView) getView().findViewById(R.id.text7);
         mText77  =(TextView) getView().findViewById(R.id.text77);
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/1");
+           **/
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Imunization");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text=dataSnapshot.getValue(String.class);
-                mText1.setText(text);
+                mText1.setText("Imunization");
             }
 
             @Override
@@ -170,7 +163,7 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/1detail");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Imunization");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -183,12 +176,12 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/2");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Imunization");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text=dataSnapshot.getValue(String.class);
-                mText2.setText(text);
+                mText2.setText("Infant Dangers");
             }
 
             @Override
@@ -196,7 +189,7 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/2detail");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Infantdangers");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -209,12 +202,12 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/3");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Infantdangers/");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text=dataSnapshot.getValue(String.class);
-                mText3.setText(text);
+                mText3.setText("Nutrition");
             }
 
             @Override
@@ -222,7 +215,7 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/3detail");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Nutrition/");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -235,12 +228,12 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/4");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Nutrition/");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text=dataSnapshot.getValue(String.class);
-                mText4.setText(text);
+                mText4.setText("Pregnancy Exercises");
             }
 
             @Override
@@ -248,7 +241,7 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/4detail");
+        mRef=new Firebase("https://mefriend-ff835.firebaseio.com/Data/Nutrition/");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -261,6 +254,7 @@ public class newsfragment extends Fragment {
 
             }
         });
+           /**
         mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/5");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -287,58 +281,9 @@ public class newsfragment extends Fragment {
 
             }
         });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/6");
-        mRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                String text=dataSnapshot.getValue(String.class);
-                mText6.setText(text);
-            }
+            **/
 
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
 
-            }
-        });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/6detail");
-        mRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                String text=dataSnapshot.getValue(String.class);
-                mText66.setText(text);
-            }
-
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
-
-            }
-        });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/7");
-        mRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                String text=dataSnapshot.getValue(String.class);
-                mText7.setText(text);
-            }
-
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
-
-            }
-        });
-        mRef=new Firebase("https://project-3625375734556922518.firebaseio.com/News/7detail");
-        mRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                String text=dataSnapshot.getValue(String.class);
-                mText77.setText(text);
-            }
-
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
-
-            }
-        });
 
 
 

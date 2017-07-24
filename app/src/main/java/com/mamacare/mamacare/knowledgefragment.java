@@ -1,11 +1,10 @@
-package com.arjunkapoor.firstdrop;
+package com.mamacare.mamacare;
 
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.Gravity;
@@ -132,12 +131,12 @@ public class knowledgefragment extends Fragment {
         mText77 = (TextView) getView().findViewById(R.id.textk77);
         mText8 = (TextView) getView().findViewById(R.id.textk8);
         mText88 = (TextView) getView().findViewById(R.id.textk88);
-        mRef = new Firebase("https://project-3625375734556922518.firebaseio.com/Knowledge/BCG");
+        mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/BCG");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text = dataSnapshot.getValue(String.class);
-                mText1.setText(text);
+                mText1.setText("Polio Knowledge");
             }
 
             @Override
@@ -145,7 +144,7 @@ public class knowledgefragment extends Fragment {
 
             }
         });
-        mRef = new Firebase("https://project-3625375734556922518.firebaseio.com/Knowledge/BCGdetail");
+        mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/Polio");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -163,7 +162,7 @@ public class knowledgefragment extends Fragment {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text = dataSnapshot.getValue(String.class);
-                mText2.setText(text);
+                mText2.setText("Child Development");
             }
 
             @Override
@@ -171,7 +170,7 @@ public class knowledgefragment extends Fragment {
 
             }
         });
-        mRef = new Firebase("https://project-3625375734556922518.firebaseio.com/Knowledge/HepatitisBdetail");
+        mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/Childdevelopment");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -189,7 +188,7 @@ public class knowledgefragment extends Fragment {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String text = dataSnapshot.getValue(String.class);
-                mText3.setText(text);
+                mText3.setText("DPT");
             }
 
             @Override
@@ -197,7 +196,8 @@ public class knowledgefragment extends Fragment {
 
             }
         });
-        mRef = new Firebase("https://project-3625375734556922518.firebaseio.com/Knowledge/Poliodetail");
+        /**
+        mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/DPT");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -210,7 +210,7 @@ public class knowledgefragment extends Fragment {
 
             }
         });
-        mRef = new Firebase("https://project-3625375734556922518.firebaseio.com/Knowledge/DPT");
+        mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/DPT");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -340,6 +340,7 @@ public class knowledgefragment extends Fragment {
 
             }
         });
+         **/
     }
     private boolean isNetworkAvailable() {
         ConnectivityManager connectivityManager
