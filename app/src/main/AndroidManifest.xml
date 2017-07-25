@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mamacare.mamacare" >
+    package="com.mamacare.mamacare">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".firebase"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-        android:name="com.mamacare.mamacare.firebase">
+        android:theme="@style/AppTheme">
         <activity
-            android:name="com.mamacare.mamacare.MainActivity"
+            android:name=".MainActivity"
             android:clearTaskOnLaunch="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,32 +22,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mamacare.mamacare.addBaby"
+            android:name=".addBaby"
             android:label="@string/title_activity_add_baby"
-            android:parentActivityName="com.mamacare.mamacare.MainActivity" >
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
         <activity
-            android:name="com.mamacare.mamacare.VaccineList"
+            android:name=".VaccineList"
             android:label="@string/title_activity_vaccine_list"
-            android:parentActivityName="com.mamacare.mamacare.MainActivity" >
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
         <activity
-            android:name="com.mamacare.mamacare.settings"
-            android:label="@string/title_activity_settings" >
-        </activity>
+            android:name=".settings"
+            android:label="@string/title_activity_settings"></activity>
         <activity
-            android:name="com.mamacare.mamacare.news"
-            android:label="@string/title_activity_news" >
-        </activity>
+            android:name=".news"
+            android:label="@string/title_activity_news"></activity>
         <activity
-            android:name="com.mamacare.mamacare.splash"
-            android:label="@string/app_name" >
+            android:name=".splash"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Faclity"></activity>
     </application>
 
 </manifest>
