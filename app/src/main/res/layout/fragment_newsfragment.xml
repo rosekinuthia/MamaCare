@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.arjunkapoor.firstdrop.newsfragment">
+    tools:context="com.mamacare.mamacare.newsfragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -206,145 +206,9 @@
 
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin = "5dp"
-                android:id="@+id/cv5"
-                >
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    >
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/person_photo5"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="16dp"
-                        android:src="@drawable/color"
-                        />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/text5"
-                        android:layout_toRightOf="@+id/person_photo5"
-                        android:layout_alignParentTop="true"
-                        android:textSize="25sp"
-                        android:text = "News"
-                        android:textColor = "#000000"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/text55"
-                        android:layout_toRightOf="@+id/person_photo5"
-                        android:layout_below="@+id/text5"
-                        android:text = "News"
-                        />
-
-                </RelativeLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin = "5dp"
-                android:id="@+id/cv6"
-                >
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    >
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/person_photo6"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="16dp"
-                        android:src="@drawable/color"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/text6"
-                        android:layout_toRightOf="@+id/person_photo6"
-                        android:layout_alignParentTop="true"
-                        android:textSize="25sp"
-                        android:text = "News"
-                        android:textColor = "#000000"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/text66"
-                        android:layout_toRightOf="@+id/person_photo6"
-                        android:layout_below="@+id/text6"
-                        android:text = "News"
-                        />
-
-                </RelativeLayout>
-
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin = "5dp"
-                android:id="@+id/cv7"
-                >
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    >
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/person_photo7"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="16dp"
-                        android:src="@drawable/color"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/text7"
-                        android:layout_toRightOf="@+id/person_photo7"
-                        android:layout_alignParentTop="true"
-                        android:textSize="25sp"
-                        android:text = "News"
-                        android:textColor = "#000000"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/text77"
-                        android:layout_toRightOf="@+id/person_photo7"
-                        android:layout_below="@+id/text7"
-                        android:text = "News"
-                        />
-
-                </RelativeLayout>
-
-            </android.support.v7.widget.CardView>
 
 
 </LinearLayout>

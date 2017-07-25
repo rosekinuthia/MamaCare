@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "421023068822",
-    "firebase_url": "https://project-3625375734556922518.firebaseio.com",
-    "project_id": "project-3625375734556922518",
-    "storage_bucket": "project-3625375734556922518.appspot.com"
+    "project_number": "217987498073",
+    "firebase_url": "https://mefriend-ff835.firebaseio.com",
+    "project_id": "mefriend-ff835",
+    "storage_bucket": "mefriend-ff835.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:421023068822:android:e75c29e5da912b9e",
+        "mobilesdk_app_id": "1:217987498073:android:d9c3f400db54fba4",
         "android_client_info": {
-          "package_name": "com.arjunkapoor.firstdrop"
+          "package_name": "com.example.oroni.mefriend"
         }
       },
       "oauth_client": [
         {
-          "client_id": "421023068822-h0o0g4gfvnbeimrqe79snjbs4cberq1l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.arjunkapoor.firstdrop",
-            "certificate_hash": "BFEEE4ADBBCDE22CAA1C801ED748B6387565D006"
-          }
-        },
-        {
-          "client_id": "421023068822-9slfovg7a6j0fk5t9t124dakmnr7t6i9.apps.googleusercontent.com",
+          "client_id": "217987498073-h0504lq166g8mk3eiflfusqj0gmjj3rt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZZDjW6ZjV0QqrycI4bmCnrbnxVkgmkKg"
+          "current_key": "AIzaSyDPC891vMjLbk8V50jxFdK9qAkiUJeCM84"
         }
       ],
       "services": {
@@ -37,13 +29,39 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "421023068822-9slfovg7a6j0fk5t9t124dakmnr7t6i9.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217987498073:android:8975b0919c6534d7",
+        "android_client_info": {
+          "package_name": "com.example.grandmuller.mjali2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217987498073-h0504lq166g8mk3eiflfusqj0gmjj3rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPC891vMjLbk8V50jxFdK9qAkiUJeCM84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

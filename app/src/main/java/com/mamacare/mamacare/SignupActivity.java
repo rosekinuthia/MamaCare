@@ -1,4 +1,4 @@
-package com.arjunkapoor.firstdrop;
+package com.mamacare.mamacare;
 
 import android.app.ProgressDialog;
 import android.content.Intent;

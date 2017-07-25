@@ -1,13 +1,10 @@
-package com.arjunkapoor.firstdrop;
+package com.mamacare.mamacare;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
-import java.io.File;
-import java.sql.Date;
 
 /**
  * Created by ARJUN on 3/17/2016.
