@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
                         String cardId = card.getId();
                         final int rowToDelete = Integer.parseInt(cardId);
                         AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
-                        alertDialog.setTitle("FirstDrop");
+                        alertDialog.setTitle("Mama Care");
                         alertDialog.setMessage("Do you want to delete " + content.getName() + " ?");
                         alertDialog.setIcon(android.R.drawable.ic_dialog_alert);
                         alertDialog.setPositiveButton("YES", new DialogInterface.OnClickListener() {
@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity {
     public void shareButton(View view) {
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
-        String shareBody = "Hey here I found this cool application on play store for baby immnuization.Do download it from Google play via  = ";
+        String shareBody = "Share the app with other mums for knowledge  = ";
         sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
         startActivity(Intent.createChooser(sharingIntent, "Share via"));
