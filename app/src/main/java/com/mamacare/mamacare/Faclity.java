@@ -2,6 +2,7 @@ package com.mamacare.mamacare;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -20,6 +21,12 @@ public class Faclity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faclity);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.listtoolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setLogo(R.drawable.mamacaresmall);
+
+
         MaterialBetterSpinner spinner =(MaterialBetterSpinner)findViewById(R.id.spinner);
         ArrayList<String> items=getfacility("kmfl.json");
         ArrayAdapter<String> adapter =new ArrayAdapter<String>(this,R.layout.spinner_layout,R.id.text,items);

@@ -4,18 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.mamacare.mamacare.Faclity">
 
-    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
-    android:id="@+id/spinner"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:hint="Bungoma County Hospitals"
-    app:met_floatingLabel="normal"
-    android:textColorHint="#CFD8DC"
-    android:gravity="center"
-    />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/listtoolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|bottom"
+        android:theme="@style/ToolBarStyle"
+        app:titleTextAppearance="@style/mainactivitytoolbartext">
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:id="@+id/button"
+            android:shape="rectangle"
+            android:background = "@drawable/ic_action_usermain"
+            android:textColor="#FFF"
+            android:onClick="addBaby" />
+    </android.support.v7.widget.Toolbar>
 
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Bungoma County Hospitals"
+        android:textColorHint="#CFD8DC"
+        app:met_floatingLabel="normal" />
 
 
 </LinearLayout>
