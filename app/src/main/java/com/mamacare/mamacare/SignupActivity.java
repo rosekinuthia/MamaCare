@@ -1,3 +1,4 @@
+/*
 package com.mamacare.mamacare;
 
 import android.app.ProgressDialog;
@@ -160,4 +161,4 @@ public class SignupActivity extends AppCompatActivity {
 
         return valid;
     }
-}
+}*/
