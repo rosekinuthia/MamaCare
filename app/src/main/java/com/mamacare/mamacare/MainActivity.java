@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     int Height;
     int TotalCards;
     static boolean active = false;
+    Button btnPg;
 
 
 
@@ -68,7 +69,13 @@ public class MainActivity extends AppCompatActivity {
         db = new databaseHelper(this, null, null, 1);
         total = db.totalCount();
 
-
+        btnPg = (Button)findViewById(R.id.btnPg);
+        btnPg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, PregnancyActivity.class));
+            }
+        });
 
         ArrayList<Card> cards = new ArrayList<Card>();
         Calendar cal = Calendar.getInstance();

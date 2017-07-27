@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.mamacare.mamacare.PregnancyActivity">
+
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    tools:layout_constraintTop_creator="1"
+    tools:layout_constraintRight_creator="1"
+    tools:layout_constraintBottom_creator="1"
+    android:layout_marginStart="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="8dp"
+    tools:layout_constraintLeft_creator="1"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:id="@+id/scrollView2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="The Stages Of Pregnancy"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text=" \n First Trimester \n"
+            android:textColor="#ff0099cc"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pg3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="First Trimester: Physical and Emotional Changes a Woman May Experience"
+            android:textColor="#ff0099cc" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Hormonal changes will affect almost every organ in the body. Some signs of early pregnancy include:\n \n
+1.Extreme fatigue \n
+2.Tender, swollen breasts. Nipples may protrude.\n
+3.Nausea with or without throwing up (morning sickness) \n
+4.Cravings or aversion to certain foods \n
+5.Mood swings \n" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="First Trimester: The Baby at 12 Weeks"
+            android:textColor="#ff0099cc" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pg4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="The end of the first trimester is at about week 12, at this point in your baby's development: \n \n
+
+1.The nerves and muscles begin to work together. Your baby can make a fist. \n
+2.The external sex organs show if your baby is a boy or girl.\n
+3.Eyelids close to protect the developing eyes. They will not open again until week 28. \n
+4.Head growth has slowed, and your baby is about 3 inches long, and weighs almost an ounce. \n" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="\n Second Trimester \n"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="\n Second Trimester: Physical and Emotional Changes in a Woman"
+            android:textColor="#ff0099cc" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pg5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Some changes you may notice in your body in the second trimester include: \n \n
+
+1.Back, abdomen, groin, or thigh aches and pains \n
+2.Stretch marks on your abdomen, breasts, thighs, or buttocks \n
+3.Darkening of the skin around your nipples \n
+4.A line on the skin running from belly button to pubic hairline (linea nigra) \n
+5.Patches of darker skin, usually over the cheeks, forehead, nose, or upper lip. This is sometimes called the mask of pregnancy (melasma, or Chloasma facies). \n
+6.Numb or tingling hands (carpal tunnel syndrome) \n
+7.Itching on the abdomen, palms, and soles of the feet. (Call your doctor if you have nausea, loss of appetite, vomiting, yellowing of skin, or fatigue combined with itching. These can be signs of a liver problem.) \n
+8.Swelling of the ankles, fingers, and face. (If you notice any sudden or extreme swelling or if you gain a lot of weight quickly, call your doctor immediately. This could be a sign of a serious condition called preeclampsia. \n)" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="\n Second Trimester: The Baby at 24 Weeks"
+            android:textColor="#ff0099cc" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pg6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="By 24 weeks, even more changes occur for your growing baby: \n \n
+
+1.The baby's bone marrow begins to make blood cells. \n
+2.Taste buds form on your baby's tongue. \n
+3.Footprints and fingerprints have formed. \n
+4.Hair begins to grow on your baby's head. \n
+5.The lungs are formed, but do not yet work. \n
+6.Your baby has a regular sleep cycle. \n
+7.If your baby is a boy, his testicles begin to descend into the scrotum. If your baby is a girl, her uterus and ovaries are in place, and a lifetime supply of eggs has formed in the ovaries. \n
+8.Your baby stores fat and weighs about 1½ pounds, and is 12 inches long. \n" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="\n Third Trisemester \n"
+            android:textColor="#ff0099cc"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="\n Third Trimester: Emotional and Physical Changes a Woman May Experience"
+            android:textColor="#ff0099cc" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pg7" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="In the third and final trimester you will notice more physical changes, including:\n \n
+
+1.Swelling of the ankles, fingers, and face. (If you notice any sudden or extreme swelling or if you gain a lot of weight really quickly, call your doctor right away. This could be a sign of a serious condition called preeclampsia.) \n
+2.Hemorrhoids \n
+3.Tender breasts, which may leak a watery pre-milk called colostrum \n
+4.Your belly button may protrude \n
+5.The baby dropping, or moving lower in your abdomen \n
+            >Contractions, which can be a sign of real or false labor \n
+            >Other symptoms you may notice in the third trimester include shortness of breath, heartburn, and difficulty sleeping \n" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="\n Third Trimester: The Baby at 37 Weeks"
+            android:textColor="#ff0099cc" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/pg8" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Finally, the last stages of your baby's development occur: \n \n
+
+1.By the end of 37 weeks, your baby is considered full term. \n
+2.Your baby's organs are capable of functioning on their own. \n
+3.As you near your due date, your baby may turn into a head-down position for birth. \n
+4.Average birth weight is between 6 pounds, 2 ounces to 9 pounds, 2 ounces and average length is 19 to 21 inches long. Most full-term babies fall within these ranges, but healthy babies come in many different weights and sizes. \n" />
+
+    </LinearLayout>
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>
