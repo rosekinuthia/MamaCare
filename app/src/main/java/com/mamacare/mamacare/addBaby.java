@@ -33,7 +33,7 @@ public class addBaby extends AppCompatActivity {
         setContentView(R.layout.activity_add_baby);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_addBaby);
         setSupportActionBar(toolbar);
-        toolbar.setLogo(R.mipmap.ic_launcher);
+        toolbar.setLogo(R.drawable.mamacaresmall);
         getSupportActionBar().setTitle("Please Enter Details");
         final Calendar calendar = Calendar.getInstance();
         year_x = calendar.get(Calendar.YEAR);

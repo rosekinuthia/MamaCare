@@ -121,6 +121,7 @@ public class knowledgefragment extends Fragment {
         mText22 = (TextView) getView().findViewById(R.id.textk22);
         mText3 = (TextView) getView().findViewById(R.id.textk3);
         mText33 = (TextView) getView().findViewById(R.id.textk33);
+        /**
         mText4 = (TextView) getView().findViewById(R.id.textk4);
         mText44 = (TextView) getView().findViewById(R.id.textk44);
         mText5 = (TextView) getView().findViewById(R.id.textk5);
@@ -131,6 +132,7 @@ public class knowledgefragment extends Fragment {
         mText77 = (TextView) getView().findViewById(R.id.textk77);
         mText8 = (TextView) getView().findViewById(R.id.textk8);
         mText88 = (TextView) getView().findViewById(R.id.textk88);
+         **/
         mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/BCG");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -196,7 +198,7 @@ public class knowledgefragment extends Fragment {
 
             }
         });
-        /**
+
         mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/DPT");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -210,6 +212,7 @@ public class knowledgefragment extends Fragment {
 
             }
         });
+        /**
         mRef = new Firebase("https://mefriend-ff835.firebaseio.com/Knowledge/DPT");
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -351,27 +354,5 @@ public class knowledgefragment extends Fragment {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

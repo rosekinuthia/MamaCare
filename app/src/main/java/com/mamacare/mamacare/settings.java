@@ -69,7 +69,7 @@ public class settings extends AppCompatActivity {
         items.add(listItem4);
         listItem5 = new HashMap<String, Object>();
         listItem5.put("title", "About");
-        listItem5.put("sub", "About FirstDrop");
+        listItem5.put("sub", "About Mama care");
         items.add(listItem5);
 
         SimpleAdapter adapter = new SimpleAdapter(this, items, R.layout.settingslistview, new String[]{"title", "sub"}, new int[]{R.id.text1, R.id.text2});
@@ -84,8 +84,8 @@ public class settings extends AppCompatActivity {
 if(position == 3){
     Intent i = new Intent(Intent.ACTION_SEND);
     i.setType("message/rfc822");
-    i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"Arjunkapoor817@gmail.com"});
-    i.putExtra(Intent.EXTRA_SUBJECT, "FirstDrop User Feedback");
+    i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"mamacare@gmail.com"});
+    i.putExtra(Intent.EXTRA_SUBJECT, "Mama Care User Feedback");
     i.putExtra(Intent.EXTRA_TEXT   , "");
     try {
         startActivity(Intent.createChooser(i, "Send mail..."));
@@ -95,9 +95,11 @@ if(position == 3){
 }
                 if(position == 4){
                     AlertDialog.Builder builder1 = new AlertDialog.Builder(settings.this,R.style.AppCompatAlertDialogStyle);
-                    builder1.setMessage("FirstDrop is one of its kind Application made specially to keep track of childrens vaccination.It has been designed to make sure that you never miss the schedule of your child's vaccination.");
+                    builder1.setMessage("Mama Care is one of its kind Application made specially to keep track of childrens vaccination.It has been designed to make sure that you never miss the schedule of your child's vaccination." +
+                            "It provides news about child health and mothers health on daily basis from the experts" +
+                            "Develped by code samurai");
                     builder1.setCancelable(true);
-                    builder1.setTitle("FirstDrop");
+                    builder1.setTitle("Mama Care");
                     builder1.setIcon(R.drawable.main_logo1);
 
                     builder1.setPositiveButton(
